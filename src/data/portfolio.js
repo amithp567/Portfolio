@@ -7,16 +7,16 @@ export const portfolioData = {
         title: "Software Engineer",
         email: "amithanil319@gmail.com",
         phone: "+91 859089xxxx",
-        objective: "Detail-oriented Computer Science Engineering student seeking a Software Development role to apply strong programming, problem-solving, and web development skills in building scalable, high-quality applications.",
+        objective: "Software Developer skilled in Python, Django, React, and SQL, with experience building REST APIs and full-stack applications. Strong problem-solving skills with a focus on clean, scalable, and reliable software.",
         socials: [
             {
                 name: "LinkedIn",
-                url: "https://linkedin.com/in/amithp567",
+                url: "https://www.linkedin.com/in/amithp567/",
                 icon: Linkedin
             },
             {
                 name: "GitHub",
-                url: "https://github.com/Amith567",
+                url: "https://github.com/amithp567",
                 icon: Github
             },
             {
@@ -32,19 +32,19 @@ export const portfolioData = {
         ]
     },
     skills: {
-        "Programming Languages": ["Python", "JavaScript"],
-        "Frontend": ["HTML5", "CSS3", "React.js", "Tailwind CSS"],
-        "Backend": ["Django", "Django REST Framework", "JWT Authentication"],
-        "Databases": ["MySQL", "SQLite"],
-        "Tools": ["Git", "GitHub", "Postman", "VS Code", "Vercel", "PythonAnywhere"],
+        "Programming Languages": ["Python", "JavaScript", "SQL", "C"],
+        "Frontend": ["HTML5", "CSS3", "React.js", "Tailwind CSS", "Axios"],
+        "Backend": ["Django", "Django REST Framework", "JWT Authentication", "Celery"],
+        "Databases": ["PostgreSQL","MySQL", "SQLite", "Redis"],
+        "Tools": ["Git", "GitHub", "Postman", "VS Code", "Vercel", "AWS", "Docker"],
         "Core Concepts": ["Object-Oriented Programming (OOP)", "Data Structures", "SDLC", "Problem Solving"]
     },
     education: [
         {
             institution: "AWH Engineering College",
             degree: "Bachelor of Technology in Computer Science and Engineering",
-            year: "Expected Graduation: June 2026",
-            details: "CGPA: 7.99"
+            year: "2026",
+            details: "CGPA: 8.1"
         },
         {
             institution: "Model Higher Secondary School",
@@ -73,7 +73,7 @@ export const portfolioData = {
             type: "Mini Project",
             description: "Developed a full-stack mini project for managing and sharing academic resources among students. StudyHive enables users to upload, organize, and access study materials through a structured and user-friendly interface, with secure backend APIs and efficient data storage.",
             techStack: ["React.js", "Spring Boot", "PostgreSQL"],
-            link: "https://github.com/Amith567/StudyHive"
+            link: "https://github.com/SabarishAV/Study-Hive"
         },
         {
             title: "Cattle Vision – AI-Based Cattle Identification System",
@@ -99,6 +99,7 @@ export const portfolioData = {
     ],
     certificates: [
         "Software Engineer Certification – HackerRank",
-        "Responsive Web Design – FreeCodeCamp"
+        "Responsive Web Design – FreeCodeCamp",
+        "Professional Data Analytics Certification – Google"
     ]
 };
